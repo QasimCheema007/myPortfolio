@@ -1,0 +1,52 @@
+.introduction {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .intro-heading {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .intro-text {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.7;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s;
+  }
+  
+  .intro-text:hover {
+    transform: translateY(-3px);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .intro-heading {
+      font-size: 2.5em;
+    }
+  
+    .intro-text {
+      font-size: 1em;
+    }
+  }
+  

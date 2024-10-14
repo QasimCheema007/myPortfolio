@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.app {
+  max-width: 1200px; /* Limit the width of the app */
+  margin: 0 auto; /* Center the app */
+  padding: 20px; /* Add some padding */
+  background: rgba(62, 160, 139, 0.311); /* White background for the app */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+  margin-top: 40px; /* Space above section headings */
+  color: #333; /* Darker text color for headings */
+  font-family: 'Montserrat', sans-serif; /* Consistent font */
+}
+
+p {
+  color: #555; /* Slightly lighter color for paragraph text */
+  line-height: 1.6; /* Improve readability */
+}
+
+section {
+  margin-bottom: 40px; /* Space between sections */
+}

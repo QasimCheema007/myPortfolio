@@ -1,0 +1,77 @@
+.projects {
+    background: linear-gradient(135deg, #ff6a6a, #f0e68c);
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .projects-heading {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .project-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-title {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .project-description,
+  .project-role,
+  .project-tech,
+  .project-outcome {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.5;
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .projects-heading {
+      font-size: 2em;
+    }
+  
+    .project-title {
+      font-size: 1.5em;
+    }
+  
+    .project-description,
+    .project-role,
+    .project-tech,
+    .project-outcome {
+      font-size: 1em;
+    }
+  }
+  
